@@ -138,24 +138,25 @@ a:hover {
 
 /* left icon settings */
 .icon_menu {
-    font-size: 22px;
-    -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-    -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-    display: inline-block;
-    cursor: pointer;
-    margin: 0;
-    width: 22px !important;
-    height: 22px !important;
+    font-size: 24px;
+    font-family: 'Garamond Regular', Times, serif;
+    -webkit-transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    -moz-transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    /* display: inline-block; */
+    /* cursor: pointer; */
+    /* margin: 0; */
+    width: 140px !important;
+    height: 42px !important;
     text-align: center;
     position: relative;
     z-index: 2;
-    border-radius: 75%;
-    -o-border-radius: 75%;
-    -ms-border-radius: 75%;
-    -webkit-border-radius: 75%;
-    -moz-border-radius: 75%;
-    line-height: 22px;
+    /* border-radius: 50%; */
+    /* -o-border-radius: 50%; */
+    /* -ms-border-radius: 50%; */
+    /* -webkit-border-radius: 50%; */
+    /* -moz-border-radius: 50%; */
+    /* line-height: 32px; */
 }
 
 #verticalTab {
@@ -166,16 +167,24 @@ a:hover {
 }
 l.resp-tabs-list, p {
     margin: 0;
-    padding: 0;
+    padding: 0 0 7px 0;
 }
 .resp-tabs-list li {
-    font-size: 15px;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Garamond Regular', Times, serif;
     display: inline-block;
-    padding: 13px 15px;
+    padding: 0 0 7px 0;
     margin: 0;
+    width: 140px;
+    height: 42px;
+    text-align: center;
+    position: relative;
     list-style: none;
     cursor: pointer;
     float: left;
+    color: rgb(113, 8, 233);
+    background: rgb(226, 211, 250);
 }
 .resp-tabs-container {
     padding: 0;
@@ -242,12 +251,13 @@ h2.resp-tab-title:last-child {
 }
 .resp-vtabs .resp-tabs-list li {
     display: block;
-    padding: 17px !important;
+    padding: 7px 0 0 0 !important;
     margin: 0;
     cursor: pointer;
     float: left;
     text-align: center;
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+    background: #fff;
 }
 
 .resp-vtabs .resp-tabs-list li:first-child {
@@ -276,18 +286,21 @@ h2.resp-tab-title:last-child {
 }
 .resp-vtabs li.resp-tab-active {
     border-right: none;
-    color: #fff;
+    color: rgb(113, 8, 233);
     position: relative;
     z-index: 1;
-    padding: 17px !important;
-    background: #fff;
+    padding: 7px 0 0 0 !important;
+    background: rgb(226, 211, 250);
 }
 .resp-tabs-list li:hover {
     -webkit-transition: all .6s ease-in;
     -moz-transition: all .6s ease-in;
     -o-transition: all .6s ease-in;
     transition: all .6s ease-in;
-    background: #fff;
+    color: rgb(113, 8, 233);
+    text-align: center;
+    background: rgb(226, 211, 250);
+    padding: 0 0 7px 0;
 }
 .resp-arrow {
     width: 0;
@@ -1038,7 +1051,7 @@ ul.about {
     width: 45px;
     height: 45px;
     line-height: 45px;
-    margin: 0px 0px 0px 5px;
+    margin: 0px 15px 0px 0px;
     padding: 0;
     border-width: 1px;
     border-style: solid;
