@@ -804,7 +804,7 @@ h2.resp-accordion:hover {
     font-family: 'Garamond Regular', Times, serif;
     font-size: 20px;
     margin-top: 10px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding-top: 2px;
     margin-bottom: 5px;
 }
@@ -1043,7 +1043,7 @@ ul.about {
 .widget-profil #profile_social
 {
     padding-top: 15px;
-    position: relative;
+    position: absolute;
     bottom: -100px;
 }
 
@@ -1619,7 +1619,7 @@ ul.info-post li {
     margin-bottom: 20px;
     width: 100%;
     line-height: 20px;
-    color: #222222;
+    color: #0a1938;
     font-size: 20px;
 }
 .comment_form p {
@@ -1698,7 +1698,7 @@ ul.info-post li {
     padding: 10px 15px;
 }
 #categories_sidebar a {
-    color: #616161;
+    color: #8a8989;
     cursor: pointer;
 }
 #categories_sidebar ul.categories {
@@ -1778,7 +1778,7 @@ ul.info-post li {
     line-height: 20px;
     font-style: italic;
     text-align: left;
-    color: #777;
+    color: rgb(158, 157, 157);
     border-left: none;
     padding: 0 !important;
 }
@@ -1837,7 +1837,7 @@ ul.info-post li {
 }
 
 .blog-article .content-post .about_author {
-    background: rgba(100, 100, 100, 0.1);
+    background: #0a1938;
     margin-bottom: 15px;
     margin-top: 15px;
 }
@@ -1862,7 +1862,7 @@ ul.info-post li {
 
 
 #blog .post_comments .comment{
-    background: rgba(100, 100, 100, 0.1);
+    background: #0a1938;
     padding: 13px;
     margin-bottom: 15px;
 }
@@ -2015,7 +2015,7 @@ ul.info-post li {
 }
 
 .research-article .post_media_detail{
-    width: 100% !important;
+    width: 50% !important;
     -webkit-box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
     box-sizing: border-box !important;
@@ -2041,11 +2041,11 @@ ul.info-post li {
 }
 
 .research-article .media img {
-     width: 100% !important;
+     width: 50% !important;
 }
 
 .media .img-hover {
-     width: 100% !important;
+     width: 50% !important;
 }
 
 .research-article:first-child {
@@ -2055,7 +2055,7 @@ ul.info-post li {
     margin-top: 0;
 }
 .research-article span.date {
-    color: #222;
+    color: #0a1938;
     text-transform: uppercase;
     font-size: 13px;
     margin-top: 25px;
@@ -2068,7 +2068,7 @@ ul.info-post li {
     float: left;
     width: 100%;
     line-height: 20px;
-    color: #222222;
+    color: #0a1938;
     font-size: 20px;
 }
 .research-article .research-content {
@@ -2091,7 +2091,7 @@ ul.info-post li {
     color: #585858;
     float: left;
     line-height: 13px;
-    font-size: 12px;
+    font-size: 16px;
 }
 .research-article .info li:first-child {
     padding-left: 0;
@@ -2151,6 +2151,11 @@ ul.info-post li {
 #carousel-example-captions p {
     color: #fff !important;
 }
+
+/* .carousel-inner {
+    width: 50%;
+} */
+
 .postPage .postImg {
     margin-top: 0;
     margin-right: 30px;
@@ -2179,7 +2184,7 @@ ul.info-post li {
 }
 .tag {
     background: #DDDDDD;
-    color: #000000;
+    color: #0a1938;
     margin: 10px 0 10px 0;
     padding: 3px 6px;
     display: inline-block;
@@ -2229,7 +2234,7 @@ ul.info-post li {
     margin-bottom: 20px;
     width: 100%;
     line-height: 20px;
-    color: #222222;
+    color: #0a1938;
     font-size: 20px;
 }
 .comment_form p {
@@ -2388,7 +2393,7 @@ ul.info-post li {
     line-height: 20px;
     font-style: italic;
     text-align: left;
-    color: #777;
+    color: rgb(158, 157, 157);;
     border-left: none;
     padding: 0 !important;
 }
