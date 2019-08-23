@@ -1,20 +1,20 @@
 
-title: Xueqian Li
+title: Haosen(Russell) Xing
 url: ''
 baseurl: '' #change it according to your repository name
 
 
 # Profile information
-yourname: Xueqian Li  ## put your name
+yourname: Haosen(Russell) Xing  ## put your name
 title: 'HH'  ## your title
 location: Pittsburgh, PA
 
 
 ## Social Profiles
-CV: https://docs.google.com/gview?url=https://github.com/Lilac-Lee/Lilac-Lee.github.io/raw/master/documents/CV.pdf&embedded=true ## link of the file
-googlescholar: https://scholar.google.com/citations?user=aNnRnv0AAAAJ&hl=en ## google scholar account
-github: https://github.com/Lilac-Lee ## github account
-linkedin: https://www.linkedin.com/in/xueqian-li-532306153/  ## your linkedin account url
-
+CV: https://docs.google.com/gview?url=https://github.com/RussellKsing/russellksing.github.io/raw/master/documents/cv_haosenx.pdf&embedded=true
+github: http://github.com/RussellKsing
+googlescholar: https://scholar.google.com/citations?user=n_xOx1MAAAAJ&hl=en
+linkedin: http://linkedin.com/in/haosen-russell-xing-34b20375
+## your linkedin account url
 
 # Update all the sections by editing the files inside _includes folder.
