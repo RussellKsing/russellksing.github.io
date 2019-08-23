@@ -2004,7 +2004,7 @@ ul.info-post li {
 }
 
 .research-article .post_content{
-    width: 60%;
+    width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -2072,8 +2072,8 @@ ul.info-post li {
     font-size: 20px;
 }
 .research-article .research-content {
-    float: left;
-    width: 100%;
+    float: right;
+    width: 56%;
     margin-top: 28px;
 }
 .research-article .info {

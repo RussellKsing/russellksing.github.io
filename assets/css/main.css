@@ -2072,8 +2072,8 @@ ul.info-post li {
     font-size: 20px;
 }
 .research-article .research-content {
-    float: left;
-    width: 100%;
+    float: right;
+    width: 56%;
     margin-top: 28px;
 }
 .research-article .info {
