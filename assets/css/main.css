@@ -2015,7 +2015,7 @@ ul.info-post li {
 }
 
 .research-article .post_media_detail{
-    width: 50% !important;
+    width: 100% !important;
     -webkit-box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
     box-sizing: border-box !important;
@@ -2029,7 +2029,7 @@ ul.info-post li {
     display: block;
     max-width: 100%;
     line-height: 1;
-    width: 100%;
+    width: 37%;
     float: left;
     overflow: hidden;
     position: relative;
@@ -2041,11 +2041,11 @@ ul.info-post li {
 }
 
 .research-article .media img {
-     width: 50% !important;
+     width: 100% !important;
 }
 
 .media .img-hover {
-     width: 50% !important;
+     width: 100% !important;
 }
 
 .research-article:first-child {
