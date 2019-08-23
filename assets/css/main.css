@@ -6,14 +6,14 @@
 @media (min-width: 1200px) {
     .container {
         /* width: 1130px !important; */
-        width: 600px !important;
+        width: 800px !important;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
         /* width: 1130px !important; */
-        width: 1400px !important;
+        width: 1200px !important;
     }
 }
 
