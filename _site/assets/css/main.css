@@ -6,7 +6,14 @@
 @media (min-width: 1200px) {
     .container {
         /* width: 1130px !important; */
-        width: 1400px !important;
+        width: 800px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        /* width: 1130px !important; */
+        width: 1200px !important;
     }
 }
 
@@ -46,6 +53,7 @@ label {
 .clear {
     clear: both;
 }
+
 ul, li, nav {
     font: inherit;
     vertical-align: baseline;
@@ -61,7 +69,7 @@ body {
     line-height: 25px;
     color: #333333;
     overflow-x: hidden;
-    background-image: url(../images/bg/bg7.png);
+    background-image: url(../images/bg/bg8.png);
     padding: 0;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -183,8 +191,8 @@ l.resp-tabs-list, p {
     list-style: none;
     cursor: pointer;
     float: left;
-    color: rgb(113, 8, 233);
-    background: rgb(226, 211, 250);
+    color: #3B5998;
+    background: rgb(220,220,220);
 }
 .resp-tabs-container {
     padding: 0;
@@ -237,7 +245,7 @@ h2.resp-tab-active {
 }
 h2.resp-tab-title:last-child {
     border-bottom: 12px solid #ccc !important;
-    background: blueviolet;
+    background: rgb(220,220,220);
 }
 /*-----------------------------------*/
 /*-----------Vertical tabs-----------*/
@@ -286,20 +294,20 @@ h2.resp-tab-title:last-child {
 }
 .resp-vtabs li.resp-tab-active {
     border-right: none;
-    color: rgb(113, 8, 233);
+    color: rgb(220,220,220);
     position: relative;
     z-index: 1;
     padding: 7px 0 0 0 !important;
-    background: rgb(226, 211, 250);
+    background: #fff;
 }
 .resp-tabs-list li:hover {
     -webkit-transition: all .6s ease-in;
     -moz-transition: all .6s ease-in;
     -o-transition: all .6s ease-in;
     transition: all .6s ease-in;
-    color: rgb(113, 8, 233);
+    color: rgb(220,220,220);
     text-align: center;
-    background: rgb(226, 211, 250);
+    background: rgb(220,220,220);
     padding: 0 0 7px 0;
 }
 .resp-arrow {
@@ -429,16 +437,16 @@ p {
     font-family: 'Garamond Regular', Times, serif;
 }
 .active-hi-icon {
-    background: rgb(158, 131, 255) !important;
-    border: 1px solid rgb(158, 131, 255) !important;
+    background: rgb(54, 85, 151) !important;
+    border: 1px solid rgb(54, 85, 151) !important;
 }
 
 .resp-tabs-list li:hover .hi-icon, .no-touch .hi-icon-effect-5 .hi-icon:hover {
-    background: rgb(158, 131, 255);
-    border: 1px solid rgb(158, 131, 255) !important;
+    background: rgb(54, 85, 151);
+    border: 1px solid rgb(54, 85, 151) !important;
 }
 h2.resp-accordion:hover .hi-icon, .no-touch .hi-icon-effect-5 .hi-icon:hover {
-    background: rgb(158, 131, 255);
+    background: rgb(54, 85, 151);
 }
 h2.resp-accordion:hover {
     background: #282828;
@@ -808,6 +816,17 @@ h2.resp-accordion:hover {
     padding-top: 2px;
     margin-bottom: 5px;
 }
+
+.text_content_p {
+    display: inline-block;
+    float: left;
+    font-family: 'Garamond Regular', Times, serif;
+    font-size: 16px;
+    margin-top: 10px;
+    /* text-transform: uppercase; */
+    padding-top: 2px;
+    margin-bottom: 5px;
+}
 /*--------------------------------------------------
 ---------------------- Profile ---------------------
 ---------------------------------------------------*/
@@ -1059,7 +1078,7 @@ ul.about {
     font-size: 24px;
     float: left;
     display: block;
-    color : rgb(113, 8, 233);
+    color : #3B5998;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
@@ -1067,7 +1086,7 @@ ul.about {
 }
 
 #profile_social a:hover{
-    background-color: rgb(113, 8, 233);
+    background-color: #3B5998;
 }
 .widget-profil .image-holder{
     position: relative;
