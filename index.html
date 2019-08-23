@@ -70,8 +70,8 @@ layout: default
         <!-- Profile info -->
         <div id="profile_info">
             <h1 id="name" class="transition-02">{{ site.yourname }}</h1>
-            {% comment %} <h4 class="line">{{ site.title }}</h4>
-            <h6><span class="fa fa-map-marker"></span> {{ site.location }}</h6> {% endcomment %}
+            <h4 class="line">{{ site.title }}</h4>
+            {% comment %} <h6><span class="fa fa-map-marker"></span> {{ site.location }}</h6> {% endcomment %}
         </div>
         <!-- End Profile info -->  
     	
@@ -89,9 +89,6 @@ layout: default
 
         <br style=“line-height:5;”>
 
-        <p>
-            Email: haosenx at andrew dot cmu dot edu
-        </p>
         <!-- Name -->
         <div id="profile_social">
             {% comment %} <h6>My Social Profiles</h6> {% endcomment %}
@@ -132,7 +129,10 @@ layout: default
             Research
             <span class="tite-list">research</span>
         </li>
-
+        <li>
+            Course Projects
+            <span class="tite-list">research</span>
+        </li>
         <li>
             Publications
             <span class="tite-list">publications</span>
@@ -141,11 +141,6 @@ layout: default
         <li>
             About me
             <span class="tite-list">profile</span>
-        </li>
-
-        <li>
-            Have fun
-            <span class="tite-list">blog</span>
         </li>
 
 
@@ -180,16 +175,9 @@ layout: default
 <div class="resp-tabs-container">
 
 {% include /research.html %}
-
+{% include /course.html %}
 {% include /publications.html %}
-
-
-{% include /profile.html %}
-
-
-{% include /blog.html %}
-
-{% include /contact.html %}
+{% include /aboutme.html %}
 
 
 </div>
