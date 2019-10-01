@@ -7,7 +7,6 @@
 - Go to the root of the repo and run this - bundle install
 - Then - bundle exec jekyll serve
 
-- Fork the repository
 - Go to settings and set Github Pages source as master.
 - Your new site should be ready at https://username.github.io/PanelCV/
 
