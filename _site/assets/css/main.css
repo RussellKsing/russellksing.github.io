@@ -9,11 +9,14 @@
     }
 } */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .container {
-        /* width: 1130px !important; */
-        width: 1400px !important;
+        width: 90% !important;
     }
+} */
+
+.container {
+    width: 90% !important;
 }
 
 #preloader {
@@ -201,12 +204,12 @@ l.resp-tabs-list, p {
 h2.resp-accordion {
     font-size: 17px;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(12, 11, 11);
     padding: 0.32em 0em 0.32em 0.70em;
     margin: 0;
     list-style: none;
     cursor: pointer;
-    background: #303030; 
+    background: rgb(220,220,220); 
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     line-height: 0px;
     cursor: pointer;
@@ -349,7 +352,7 @@ h2.resp-accordion:first-child {
 }
 
 /*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1199px) {
     ul.resp-tabs-list {
         display: none;
     }
@@ -373,10 +376,10 @@ h2.resp-accordion:first-child {
     .resp-vtabs .resp-tab-content:last-child {
         border-bottom: 1px solid #c1c1c1 !important;
     }
-    .scrollbar {
+    /* .scrollbar {
         height: 100% !important;
         overflow-y: hidden !important;
-    }
+    } */
     .contact-form .main-heading {
         margin-top: 45px;
     }
@@ -402,12 +405,12 @@ h2.resp-accordion:first-child {
         position: relative;
         top: -3px;
         left: 10px;
+
     }
-    .widget-profil #profile_desc{
+    /* .widget-profil #profile_desc{
         border-top: 0 !important;
         border-bottom: 0 !important;
-    }
-
+    }  */
 }
 
 /* change title size */
@@ -432,7 +435,7 @@ p {
     line-height: 22px;
     text-align: left;
     margin: 0;
-    color: rgb(6, 8, 29) !important;
+    color: rgb(54, 85, 151) !important;
     font-family: 'Garamond Regular', Times, serif;
 }
 .active-hi-icon {
@@ -448,7 +451,7 @@ h2.resp-accordion:hover .hi-icon, .no-touch .hi-icon-effect-5 .hi-icon:hover {
     background: rgb(54, 85, 151);
 }
 h2.resp-accordion:hover {
-    background: #282828;
+    background: rgb(54, 85, 151);
 }
 
 /*--------------------------------------------------
@@ -622,7 +625,7 @@ h2.resp-accordion:hover {
 /*--------------------------------------------------
 ----------------------- Portfolio ------------------
 ---------------------------------------------------*/
-
+/* 
 .container-portfolio { 
     position: relative; 
     width: 100%; 
@@ -722,7 +725,7 @@ h2.resp-accordion:hover {
 }
 
 
-@media only screen and (max-width: 767px) {
+/@media only screen and (max-width: 767px) {
 
     #portfoliolist .portfolio {
         width:48%;
@@ -731,8 +734,6 @@ h2.resp-accordion:hover {
 
     .widget-profil,
     .flexy_content {
-        /* margin-left: 10px; */
-        /* margin-right: 10px; */
         margin-left: 7px;
         margin-right: 7px;
     }
@@ -740,7 +741,6 @@ h2.resp-accordion:hover {
 }
 
 @media only screen and (max-width: 550px) {
-/* @media only screen and (max-width: 300px) { */
 
     #filters li  {
         width: 100%;
@@ -749,12 +749,11 @@ h2.resp-accordion:hover {
     #profile .cycle-slideshow {
         display: none;
     }
-
-}
+}  */
 
 /* #Clearing */
 /* Self Clearing Goodness */
-.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+/* .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
 .clearfix:before,
 .clearfix:after,
@@ -780,7 +779,7 @@ h2.resp-accordion:hover {
     visibility: hidden;
     width: 0;
     height: 0;
-}
+} */
 
 /*--------------------------------------------------
 ---------------------- Title  ---------------------
@@ -989,7 +988,7 @@ ul.about {
 
 .widget-profil{ 
     height: 635px;
-    width: 270px;  
+    width: 20%;  
     float: right;
     margin-left: 0;
 }
@@ -1109,7 +1108,7 @@ ul.about {
     z-index: 1;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1500px) {
 
     .widget-profil #profile_social a{ 
         width: 45px;	
@@ -1121,9 +1120,10 @@ ul.about {
         font-size: 25px;
         line-height: 60px;
     }
+
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1499px) {
 
     .widget-profil #profile_social a { 
         width: 34px;	
@@ -1133,38 +1133,31 @@ ul.about {
     }
 
     .widget-profil h1 {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 50px;
     }
-
+    .widget-profil #profile_social
+    {
+        padding-top: 15px;
+        position: absolute;
+        bottom: -25%;
+    }
 }
+@media only screen  and (max-width: 1199px) {
 
-@media only screen and (max-width: 260px) {
-    .widget-profil h1 {
-        font-size: 27px !important;
-        line-height: 39px !important;
-    }
-
-    .widget-profil h4 {
-        font-size: 15px !important;
-    }
-
-    .widget-profil{ 	
-        height: 265px !important;
-        margin-bottom: 20px;
-        float: none;
-    }
     #profile_social {
         display: none;
     }
     #profile_desc {
         display:none;
     }
+
 }
 
 @media only screen  and (max-width: 766px) {
-    .widget-profil{ 	
-        height: 285px !important;
+    .widget-profil{ 
+        width:100%;	
+        height: 400px !important;
         margin-bottom: 20px;
         float: none;
     }
@@ -1185,39 +1178,83 @@ ul.about {
     }
 }
 
-@media only screen and (min-width : 766px) and (max-width: 800px) {
-    .widget-profil{ 	
-        height: 210px !important;
+@media only screen and (max-width: 400px) {
+    .widget-profil h1 {
+        font-size: 27px !important;
+        line-height: 39px !important;
+    }
+
+    .widget-profil h4 {
+        font-size: 15px !important;
+    }
+
+    .widget-profil{ 
+        width:100%;	
+        height: 500px !important;
         margin-bottom: 20px;
         float: none;
     }
-    #profile_social {
-        display: none;
-    }
-}
-
-@media only screen and (min-width : 550px) and (max-width : 991px) {
-    #profile .cycle-slideshow {
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-}
-
-@media only screen and (min-width : 800px) and (max-width : 991px) {
-
-    .widget-profil{ 	
-        height: 210px !important;	
-        margin-bottom: 20px;
-        float: none;
-    }
-
     #profile_social {
         display: none;
     }
     #profile_desc {
-        border-bottom: 0 !important;
+        display:none;
     }
 }
+
+@media only screen and (max-width: 300px) {
+    .widget-profil h1 {
+        font-size: 27px !important;
+        line-height: 39px !important;
+    }
+
+    .widget-profil h4 {
+        font-size: 15px !important;
+    }
+
+    .widget-profil{ 
+        width:100%;	
+        height: 600px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #profile_social {
+        display: none;
+    }
+    #profile_desc {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .widget-profil{ 
+        width:100%;	
+        height: 700px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    #profile_social {
+        display: none;
+    }
+    #profile_desc {
+        display:none;
+    }
+}
+ 
+@media only screen and (min-width : 766px) and (max-width: 1199px) {
+    .widget-profil{ 
+        display: none;
+    }
+}
+
+/* @media only screen and (min-width : 550px) and (max-width : 991px) {
+    #profile .cycle-slideshow {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+} */
+
+
 
 /*--------------------------------------------------
 ------------- buttion download vcard ---------------
@@ -1225,7 +1262,7 @@ ul.about {
 
 /* Effect 10: reveal, push out */
 
-
+/* 
 .download {
     position: relative;
     display: block;
@@ -1252,7 +1289,6 @@ ul.about {
     position: relative;
     display: inline-block;
     padding: 3px 15px 0;
-    /*box-shadow: inset 0 3px #0390bb;*/
     -webkit-transition: background 0.6s;
     -moz-transition: background 0.6s;
     transition: background 0.6s;
@@ -1289,11 +1325,11 @@ ul.about {
     -webkit-transform: rotateX(10deg);
     -moz-transform: rotateX(10deg);
     transform: rotateX(10deg);
-}
+} */
 /*--------------------------------------------------
 ---------------------- Resume ----------------------
 ---------------------------------------------------*/
-
+/* 
 #resume .col-md-6 span.duration {
     float: right;
 }
@@ -1336,7 +1372,7 @@ ul.about {
 
 .reference ul li {
     margin-top: 15px;
-}
+} */
 
 /*--------------------------------------------------
 ------------------- Skills bar ---------------------
@@ -2986,7 +3022,7 @@ ul.info-post li {
 .no-cssanimations .cb-slideshow li span {
     opacity: 1;
 }
-
+/* 
 @media screen and (max-width: 1140px) {
     .cb-slideshow li div h3 {
         font-size: 100px
@@ -3002,7 +3038,7 @@ ul.info-post li {
         width: 100% !important;
     }
 
-}
+} */
 
 #loading_page {
     position: absolute;
@@ -3311,9 +3347,8 @@ ul.info-post li {
 }
 
 
-@media screen and (min-width:850px) and (max-width: 1200px)  { 
+/* @media screen and (min-width:850px) and (max-width: 1200px)  { 
     .resp-vtabs .resp-tabs-container { 
-        /* width:89%; */
         width: 100%;
     }
 }
@@ -3332,7 +3367,7 @@ ul.info-post li {
     .resp-vtabs .resp-tabs-container { 
         width: 100%;
     }
-}
+} */
 
 
 /* The CSS */
