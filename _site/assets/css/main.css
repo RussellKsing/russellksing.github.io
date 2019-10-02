@@ -202,15 +202,14 @@ l.resp-tabs-list, p {
     clear: left;
 }
 h2.resp-accordion {
-    font-size: 17px;
-    text-transform: uppercase;
-    color: rgb(12, 11, 11);
-    padding: 0.32em 0em 0.32em 0.70em;
+    font-size: 24px;
+    font-family: 'Garamond Regular', Times, serif;
+    font-weight: 900;
+    color: #3B5998;
+    /* padding: 0.32em 0em 0.32em 0.70em; */
     margin: 0;
     list-style: none;
     cursor: pointer;
-    background: rgb(220,220,220); 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     line-height: 0px;
     cursor: pointer;
     padding: 5px;
@@ -236,7 +235,7 @@ h2.resp-accordion {
     border: 1px solid #ccc;
 }
 h2.resp-accordion {
-    font-size: 17px;
+    font-size: 24px;
     margin: 0;
     padding: 10px 15px;
 }
@@ -376,11 +375,7 @@ h2.resp-accordion:first-child {
     .resp-vtabs .resp-tab-content:last-child {
         border-bottom: 1px solid #c1c1c1 !important;
     }
-    
-    /* .scrollbar {
-        height: 100% !important;
-        overflow-y: hidden !important;
-    } */
+
     .contact-form .main-heading {
         margin-top: 45px;
     }
@@ -402,13 +397,6 @@ h2.resp-accordion:first-child {
     ul.about li span.value {
         margin-right: 30px;
     }
-    /* .tite-list-resp{
-        display: none;
-    } */
-    /* .widget-profil #profile_desc{
-        border-top: 0 !important;
-        border-bottom: 0 !important;
-    }  */
 }
 
 /* change title size */
@@ -2201,6 +2189,7 @@ ul.info-post li {
 	/* height: 205px;*/
 }
 
+
 .research-article:first-child .media {
     height: auto;
 }
@@ -2313,6 +2302,25 @@ ul.info-post li {
     -moz-transition: opacity 1s ease-out 0.2s;
     -webkit-transition: opacity 1s ease-out 0.2s;
 }
+
+
+@media only screen  and (max-width: 800px) {
+    .research-article .media {
+        margin-top: 15px;
+        display: block;
+        max-width: 100%;
+        line-height: 1;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        /* height: 205px;*/
+    }
+    .research-article .research-content {
+        width: 100%;
+        margin-top: 28px;
+    }  
+}
+
 #carousel-example-captions p {
     color: #fff !important;
 }
@@ -3359,7 +3367,7 @@ ul.info-post li {
 
 @media screen and (max-width: 554px) {
     .resp-tabs-container h1 {
-        font-size: 15px;
+        font-size: 24px;
     }
 
     .blog-article .info li:first-child {
