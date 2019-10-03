@@ -3215,11 +3215,11 @@ ul.info-post li {
         float: none;
     }
     .text_content {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     #blog .text_content {
-        font-size: 10px;
+        font-size: 18px;
     }
     .blog-article .media,
     .media iframe,
@@ -3236,7 +3236,7 @@ ul.info-post li {
     }
 
     #research .text_content {
-        font-size: 10px;
+        font-size: 18px;
     }
     .research-article .media,
     .media iframe,
@@ -3305,7 +3305,7 @@ ul.info-post li {
         float: none;
     }
     .text_content {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     #blog .post_comments .comment.sub {
