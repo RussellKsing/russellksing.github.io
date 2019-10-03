@@ -153,9 +153,9 @@ a:hover {
     -webkit-transition: background 0.2s, color 0.2s, box-shadow 0.2s;
     -moz-transition: background 0.2s, color 0.2s, box-shadow 0.2s;
     transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-    /* display: inline-block; */
+    display: inline-block;
     /* cursor: pointer; */
-    /* margin: 0; */
+    /* margin: 0;
     width: 140px !important;
     height: 42px !important;
     text-align: center;
@@ -992,19 +992,7 @@ ul.about {
 }
 
 .widget-profil .circle-img {
-    display: block;
-    width: 150px;
-    height: 150px;
-    margin: 1em auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-border-radius: 99em;
-    -moz-border-radius: 99em;
-    border-radius: 99em;
-    background-image: url('../images/img/front.png');
-    margin-top: 25px;
-    margin-bottom: 7px;
+    display: none;
 }
 
 .widget-profil  h1 {
@@ -1129,49 +1117,41 @@ ul.about {
         bottom: -25%;
     }
 }
-/* @media only screen  and (max-width: 1199px) {
-    
-    #profile_social {
-        display: none;
-    }
-    #profile_desc {
-        display:none;
-    }
 
-} */
-/* @media only screen  and (max-width: 991px) {
-    .widget-profil{ 
-        width:100%;	
-        height: 400px !important;
-        margin-bottom: 20px;
-        float: none;
-    }
-    #profile_social {
-        display: none;
-    }
-    #profile_desc {
-        display:none;
-    }
-
-    .widget-profil h1 {
-        font-size: 24px !important;
-        line-height: 39px !important;
-    }
-
-    .widget-profil h4 {
-        font-size: 15px !important;
-    }
-} */
 @media only screen  and (max-width: 991px) {
+
+    /* .widget-profil .image-holder{
+        display: none;
+    }
+    
+    .widget-profil .head-image{
+        display: none;
+    }
+    
+    .widget-profil .circle-img {
+        display: block;
+        position: relative;
+        margin: 15px auto;
+        left: 0;
+        top: 0;
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-border-radius: 99em;
+        -moz-border-radius: 99em;
+        border-radius: 99em;
+        background-image: url('../images/img/front.png');
+    } */
+    
     .widget-profil{ 
         width:98%;	
         height: 300px !important;
         margin-bottom: 20px;
         float: none;
     }
-    /* #profile_social {
-        display: none;
-    } */
+
     #profile_desc {
         display:none;
     }
@@ -1193,9 +1173,7 @@ ul.about {
         margin-bottom: 20px;
         float: none;
     }
-    /* #profile_social {
-        display: none;
-    } */
+
     #profile_desc {
         display:none;
     }
