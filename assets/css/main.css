@@ -805,7 +805,7 @@ h2.resp-accordion:hover {
     display: inline-block;
     float: left;
     font-family: 'Garamond Regular', Times, serif;
-    font-size: 18px;
+    font-size: 17px;
     /* margin-top: 10px; */
     /* text-transform: uppercase; */
     /* padding-top: 2px; */
@@ -1802,10 +1802,10 @@ ul.info-post li {
 #section-title {
     margin: 0 0 15px 0;
     padding: 5px 0 8px 0;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     height: 42px;
-    font-size: 16px;
+    /* font-size: 16px; */
     text-align: left;
     line-height: 28px;
     color:#fff;
@@ -2118,8 +2118,8 @@ ul.info-post li {
 ---------------------------------------------------*/
 
 .research-article {
-    padding-top: 37px;
-    padding-bottom: 35px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .research-article .post_media{
@@ -2159,9 +2159,11 @@ ul.info-post li {
     max-width: 100%;
     line-height: 1;
     width: 37%;
+    height: 29%;
     float: left;
     overflow: hidden;
     position: relative;
+    max-height: 205px;
 	/* height: 205px;*/
 }
 
@@ -2205,13 +2207,14 @@ ul.info-post li {
     float: right;
     width: 56%;
     margin-top: 12px;
+    font-size: 20px;
 }
 .research-article .info {
     margin: 0;
     padding: 0;
     float: left;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 7px;
     list-style: none;
 }
 .research-article .info li {
@@ -2437,10 +2440,10 @@ ul.info-post li {
 #section-title {
     margin: 0 0 15px 0;
     padding: 5px 0 8px 0;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     height: 42px;
-    font-size: 16px;
+    /* font-size: 16px; */
     text-align: left;
     line-height: 28px;
     color:#fff;
