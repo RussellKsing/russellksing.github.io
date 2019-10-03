@@ -1120,31 +1120,6 @@ ul.about {
 
 @media only screen  and (max-width: 991px) {
 
-    /* .widget-profil .image-holder{
-        display: none;
-    }
-    
-    .widget-profil .head-image{
-        display: none;
-    }
-    
-    .widget-profil .circle-img {
-        display: block;
-        position: relative;
-        margin: 15px auto;
-        left: 0;
-        top: 0;
-        width: 150px;
-        height: 150px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        -webkit-border-radius: 99em;
-        -moz-border-radius: 99em;
-        border-radius: 99em;
-        background-image: url('../images/img/front.png');
-    } */
-    
     .widget-profil{ 
         width:98%;	
         height: 300px !important;
@@ -1308,6 +1283,29 @@ ul.about {
     }
 }
 
+@media only screen and (max-width: 260px) {
+    .widget-profil h1 {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+
+    .widget-profil h4 {
+        font-size: 13px !important;
+    }
+
+    .widget-profil{ 
+        width:100%;	
+        height: 700px !important;
+        margin-bottom: 20px;
+        float: none;
+    }
+    /* #profile_social {
+        display: none;
+    } */
+    #profile_desc {
+        display:none;
+    }
+}
 
 @media only screen and (min-width : 991px) and (max-width: 1199px) {
     .widget-profil{ 
