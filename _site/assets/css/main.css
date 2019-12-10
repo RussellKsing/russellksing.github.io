@@ -71,7 +71,7 @@ body {
     line-height: 25px;
     color: #333333;
     overflow-x: hidden;
-    background-image: url(../images/bg/bg8.png);
+    background-image: url(../images/bg/bg1.jpg);
     padding: 0;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -194,7 +194,7 @@ l.resp-tabs-list, p {
     cursor: pointer;
     float: left;
     color: #3B5998;
-    background: rgb(220,220,220);
+    background: rgb(255, 255, 255);
 }
 .resp-tabs-container {
     padding: 0;
